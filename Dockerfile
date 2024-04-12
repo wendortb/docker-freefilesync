@@ -13,7 +13,7 @@ ARG WXWIDGETS_VERSION=3.2.4
 ARG LIBSSH2_VERSION=1.11.0
 
 # Define software download URLs.
-ARG FREEFILESYNC_URL=https://freefilesync.org/download/FreeFileSync_${FREEFILESYNC_VERSION}_Source.zip
+ARG FREEFILESYNC_URL=https://freefilesync.org/supporter-edition/FreeFileSync_13.5_%5BDonation_Edition%5D_Linux.zip?tx=6CH93755S1812745T&name=Neil+Cameron&ffs_variant=donation&expire=1712929563&hash=e651830e266099feb90c2ac2e58fd6d2
 ARG WXWIDGETS_URL=https://github.com/wxWidgets/wxWidgets/releases/download/v${WXWIDGETS_VERSION}/wxWidgets-${WXWIDGETS_VERSION}.tar.bz2
 ARG LIBSSH2_URL=http://www.libssh2.org/download/libssh2-${LIBSSH2_VERSION}.tar.gz
 

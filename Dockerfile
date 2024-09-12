@@ -8,12 +8,12 @@
 ARG DOCKER_IMAGE_VERSION=
 
 # Define software versions.
-ARG FREEFILESYNC_VERSION=13.5
+ARG FREEFILESYNC_VERSION=13.7
 ARG WXWIDGETS_VERSION=3.2.4
 ARG LIBSSH2_VERSION=1.11.0
 
 # Define software download URLs.
-ARG FREEFILESYNC_URL=https://freefilesync.org/supporter-edition/FreeFileSync_13.5_%5BDonation_Edition%5D_Linux.zip?tx=6CH93755S1812745T&name=Neil+Cameron&ffs_variant=donation&expire=1712929563&hash=e651830e266099feb90c2ac2e58fd6d2
+ARG FREEFILESYNC_URL=https://freefilesync.org/supporter-edition/FreeFileSync_13.7_%5BDonation_Edition%5D_Linux.zip?tx=2PU65500J44665505&name=Travis+Wendorf&ffs_variant=donation&expire=1726116759&hash=0e9d5f4141112d325c1b6d6f5149c626
 ARG WXWIDGETS_URL=https://github.com/wxWidgets/wxWidgets/releases/download/v${WXWIDGETS_VERSION}/wxWidgets-${WXWIDGETS_VERSION}.tar.bz2
 ARG LIBSSH2_URL=http://www.libssh2.org/download/libssh2-${LIBSSH2_VERSION}.tar.gz
 
